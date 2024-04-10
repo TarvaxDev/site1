@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Aulas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1 class="logo">Cursos</h1>
+            <button class="discord-button" onclick="window.location.href='https://discord.com'">
+             <img src="dc.png" alt="Discord" style="width: 50px; height: 50px;">
+            </button>
+
+        </div>
+        <div class="dropdown" id="categoriesDropdown">
+            <select id="categorySelect" onchange="filterVideos(this.value)">
+                <option value="about">Como Funciona</option>
+                <option value="csgo">CS:GO</option>
+                <option value="lol">LoL</option>
+            </select>
+        </div>
+    </header>
+    
+    <main id="videos">
+        <!-- Vídeos serão adicionados aqui dinamicamente -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Minhas Aulas</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

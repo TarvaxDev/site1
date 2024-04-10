@@ -1,0 +1,45 @@
+/* Estilo para o corpo da página */
+body {
+    background-color: rgb(0, 0, 0); /* Define o fundo preto */
+    color: rgb(236, 15, 207); /* Define a cor do texto como branco */
+}
+
+/* Estilos para o contêiner do vídeo */
+.video-container {
+    margin-bottom: 20px;
+}
+
+/* Estilos para a miniatura */
+.video-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para o botão "Cursos" */
+.courses-button {
+    background-color: transparent;
+    border: 2px solid rgb(20, 20, 20);
+    color: rgb(207, 92, 92);
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.courses-button:hover {
+    background-color: rgb(204, 9, 9);
+    color: rgb(201, 0, 0);
+}
+
+/* Estilo para o dropdown */
+.dropdown {
+    display: flex;
+}
+
+.dropdown.active {
+    display: block;
+}
+
+.discord-button {
+    width: 20px;
+    height: 20px;
+}
